@@ -1,11 +1,11 @@
 DROP DATABASE IF EXISTS burgerDB;
 CREATE DATABASE burgerDB;
 USE burgerDB;
-CREATE TABLE IF NOT EXISTS burgers (ID INTEGER NOT NULL) (
-    id INT AUOT_INCREMENT NOT NULL,
+CREATE TABLE burgers (
+    id INT auto_increment NOT NULL,
     burger_name VARCHAR (50),
     devoured BOOLEAN,
-    created TIMESTAMP NOT NULL,
+    created TIMESTAMP,
     PRIMARY KEY (id)
 );
 

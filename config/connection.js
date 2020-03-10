@@ -9,7 +9,7 @@ if (process.env.BURGERSDB_URL) {
     port: 3306,
     user: "root",
     password: "rootroot",
-    database: "burgersDB"
+    database: "burgersdb"
   });
 }
 
