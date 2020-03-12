@@ -3,25 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css">
+    <link rel="stylesheet" href="/public/assets/css/style.css" type="text/css">
     <title>Burger Wishlist</title>
-    {{!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/superhero/bootstrap.min.css"> --}}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/superhero/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/assets/js/app.js"></script>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="#">Burger Wishlist!</a>
-        <form class="form-inline my-2 my-lg-0 create-form">
-            <input class="form-control mr-sm-2" name="name" id="newBurger" type="text"
-                placeholder="Your burger wishlist, here!" required>
-            <button class="btn btn-warning my-2 my-sm-0 btn-add" type="submit">Add Burger to wishlist</button>
+<body id="body">
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Burger Wishlist</a>
+        <form class="form-inline create-form">
+            <input class="form-control mr-sm-2" name="name" id="newBurger" type="text" placeholder="Input Name!"
+                required>
+            <button class="btn btn-success my-2 my-sm-0 btn-add" type="submit">Add to Wishlist</button>
         </form>
-        </div>
     </nav>
     {{{ body }}}
-
 </body>
 
 </html>

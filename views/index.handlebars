@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-4">
-            <h2 class="text-primary mt-5">Burgers ready to eat from Wishlist!</h2>
+            <h2 class="text-primary mt-5 font-weight-bold">Eat from Wishlist!</h2>
             {{#each burgers}}
             {{#unless this.devoured}}
             <ul class="list-group">
@@ -14,9 +14,9 @@
             {{/each}}
         </div>
 
-        <div class="col-4">
+        {{!-- <div class="col-4">
             <img src="#" alt="" class="img-fluid pt-5">
-        </div>
+        </div> --}}
 
         <div class="col-4">
             <h2 class="text-primary mt-5">burgers that you have ate!</h2>
