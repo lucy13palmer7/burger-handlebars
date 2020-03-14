@@ -1,6 +1,4 @@
-DROP DATABASE IF EXISTS burgerDB;
-CREATE DATABASE burgerDB;
-USE burgerDB;
+USE `y0kx63lf0wir2cmj`;
 CREATE TABLE burgers (
     id INT auto_increment NOT NULL,
     burger_name VARCHAR (50),
