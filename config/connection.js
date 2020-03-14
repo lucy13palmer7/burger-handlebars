@@ -1,4 +1,6 @@
-const mysql = require("mysql");
+var mysql = require("mysql");
+var express = require('express');
+var app = express();
 var connection = require('./connection.js')
 
 if (process.env.JAWSDB_URL) {
